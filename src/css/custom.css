@@ -67,6 +67,10 @@
     margin: auto;
 }
 
+.markdown p:has(+ ul, + ol, + dl) {
+    margin-block-end: 0;
+}
+
 .footer__copyright {
     text-align: start;
 }
