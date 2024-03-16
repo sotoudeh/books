@@ -3,19 +3,19 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-    title: 'کتاب‌کده',
-    tagline: 'مجموعه‌ای از بهترین کتاب‌ها در دسته‌بندی‌های متنوع',
+    title: 'یک قاشق کتاب',
+    tagline: 'خلاصه‌ی کتاب‌هایم با موضوعات مختلف',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://books.bijanprogrammer.com',
+    url: 'https://books.amirsotoudeh.ir',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'BijanProgrammer', // Usually your GitHub org/user name.
+    organizationName: 'amirsotoudeh', // Usually your GitHub org/user name.
     projectName: 'books', // Usually your repo name.
 
     onBrokenLinks: 'throw',
@@ -37,7 +37,7 @@ const config: Config = {
                     sidebarPath: './sidebars.ts',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/BijanProgrammerWebsites/books/tree/master/',
+                    editUrl: 'https://github.com/sotoudeh/books/tree/master',
                     path: 'books',
                     routeBasePath: 'books',
                 },
@@ -52,7 +52,7 @@ const config: Config = {
         // Replace with your project's social card
         // image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'کتاب‌کده',
+            title: 'یک قاشق کتاب',
             logo: {
                 alt: '',
                 src: 'img/logo.svg',
@@ -66,14 +66,14 @@ const config: Config = {
                     label: 'کسب‌وکار',
                 },
                 {
-                    href: 'https://github.com/BijanProgrammerWebsites/books/',
+                    href: 'https://github.com/sotoudeh/books/',
                     label: 'GitHub',
                     position: 'right',
                 },
             ],
         },
         footer: {
-            style: 'light',
+            style: 'dark',
             links: [
                 {
                     title: 'دسته‌بندی‌ها',
@@ -89,12 +89,12 @@ const config: Config = {
                     items: [
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/BijanProgrammerWebsites/books/',
+                            href: 'https://github.com/sotoudeh/books/',
                         },
                     ],
                 },
             ],
-            copyright: 'تمامی حقوق مادی و معنوی این سایت متعلق به bijanprogrammer.com می‌باشد.',
+            copyright: 'تمامی حقوق مادی و معنوی این سایت متعلق به amirsotoudeh.ir می‌باشد.',
         },
         prism: {
             theme: prismThemes.github,

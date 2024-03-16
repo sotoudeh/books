@@ -28,7 +28,7 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
     const {siteConfig} = useDocusaurusContext();
     return (
-        <Layout description="مجموعه‌ای از بهترین کتاب‌ها در دسته‌بندی‌های متنوع">
+        <Layout description="خلاصه‌ی کتاب‌هایم با موضوعات مختلف">
             <HomepageHeader />
         </Layout>
     );
